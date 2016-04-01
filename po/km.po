@@ -1,0 +1,145 @@
+# Khmer translation for ubuntu-keyboard
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the ubuntu-keyboard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ubuntu-keyboard\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-05-11 12:50+0100\n"
+"PO-Revision-Date: 2015-02-07 14:02+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Khmer <km@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-02-05 06:29+0000\n"
+"X-Generator: Launchpad (build 17908)\n"
+
+#: ../qml/keys/LanguageMenu.qml:80
+msgid "Settings"
+msgstr "ការ​កំណត់"
+
+#: ../qml/keys/LanguageMenu.qml:95
+msgid "Arabic"
+msgstr "អារ៉ាប់"
+
+#: ../qml/keys/LanguageMenu.qml:96
+msgid "Azerbaijani"
+msgstr "អាហ្ស៊ែរបែហ្ស៊ង់"
+
+#: ../qml/keys/LanguageMenu.qml:97
+msgid "Bosnian"
+msgstr "បូស្នី"
+
+#: ../qml/keys/LanguageMenu.qml:98
+msgid "Catalan"
+msgstr "កាតាឡាន"
+
+#: ../qml/keys/LanguageMenu.qml:99
+msgid "Czech"
+msgstr "ឆេក"
+
+#: ../qml/keys/LanguageMenu.qml:100
+msgid "Danish"
+msgstr "ដាណឺម៉ាក"
+
+#: ../qml/keys/LanguageMenu.qml:101
+msgid "German"
+msgstr "​​អា​ល្លឺម៉ង់"
+
+#: ../qml/keys/LanguageMenu.qml:102
+msgid "Emoji"
+msgstr "សញ្ញាអារម្មណ៍"
+
+#: ../qml/keys/LanguageMenu.qml:103
+msgid "Greek"
+msgstr "ក្រិក"
+
+#: ../qml/keys/LanguageMenu.qml:104
+msgid "English"
+msgstr "អង់គ្លេស"
+
+#: ../qml/keys/LanguageMenu.qml:105
+msgid "Spanish"
+msgstr "​អេស៉្បាញ"
+
+#: ../qml/keys/LanguageMenu.qml:106
+msgid "Finnish"
+msgstr "ហ្វាំង​ឡង់"
+
+#: ../qml/keys/LanguageMenu.qml:107
+msgid "French"
+msgstr "បារាំង"
+
+#: ../qml/keys/LanguageMenu.qml:108
+msgid "Scottish Gaelic"
+msgstr "ហ្គាអេលិក​ស្កត"
+
+#: ../qml/keys/LanguageMenu.qml:109
+msgid "Hebrew"
+msgstr "អ៊ីស្រាអែល"
+
+#: ../qml/keys/LanguageMenu.qml:110
+msgid "Croatian"
+msgstr "ក្រូអាស៊ី"
+
+#: ../qml/keys/LanguageMenu.qml:111
+msgid "Hungarian"
+msgstr "ហុងគ្រី"
+
+#: ../qml/keys/LanguageMenu.qml:112
+msgid "Icelandic"
+msgstr "អ៊ីស្លង់"
+
+#: ../qml/keys/LanguageMenu.qml:113
+msgid "Italian"
+msgstr "អ៊ីតាលី"
+
+#: ../qml/keys/LanguageMenu.qml:114
+msgid "Dutch"
+msgstr "ហូល្លង់"
+
+#: ../qml/keys/LanguageMenu.qml:115
+msgid "Norwegian"
+msgstr "ន័រវែស"
+
+#: ../qml/keys/LanguageMenu.qml:116
+msgid "Polish"
+msgstr "ប៉ូឡូញ"
+
+#: ../qml/keys/LanguageMenu.qml:117
+msgid "Portuguese"
+msgstr "ព័រទុយហ្គាល់"
+
+#: ../qml/keys/LanguageMenu.qml:118
+msgid "Romanian"
+msgstr "រ៉ូម៉ានី"
+
+#: ../qml/keys/LanguageMenu.qml:119
+msgid "Russian"
+msgstr "រុស្ស៊ី"
+
+#: ../qml/keys/LanguageMenu.qml:120
+msgid "Slovenian"
+msgstr "ស្លូវ៉ានី"
+
+#: ../qml/keys/LanguageMenu.qml:121
+msgid "Serbian"
+msgstr "សែប៊ី"
+
+#: ../qml/keys/LanguageMenu.qml:122
+msgid "Swedish"
+msgstr "ស៊ុយអែដ"
+
+#: ../qml/keys/LanguageMenu.qml:123
+msgid "Ukrainian"
+msgstr "អ៊ុយក្រែន"
+
+#: ../qml/keys/LanguageMenu.qml:124
+msgid "Chinese - Pinyin"
+msgstr "ចិន - Pinyin"
+
+#~ msgid "Language: "
+#~ msgstr "ភាសា៖ "
