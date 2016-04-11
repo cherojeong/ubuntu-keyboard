@@ -1,5 +1,5 @@
 /*
- * Copyright 2015 Canonical Ltd.
+ * Copyright 2014 Canonical Ltd.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
@@ -34,9 +34,6 @@ public:
     virtual bool isSeparator(const QString &text) const;
     virtual bool isSymbol(const QString &text) const;
     virtual bool ignoreSimilarity() const;
-    virtual bool wordEngineAvailable() const;
-    virtual bool enablePreeditAtInsertion() const;
-    virtual bool restorePreedit() const;
 };
 
 #endif // KOREANLANGUAGEFEATURES_H

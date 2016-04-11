@@ -1,5 +1,5 @@
 /*
- * Copyright 2015 Canonical Ltd.
+ * Copyright 2014 Canonical Ltd.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
@@ -27,8 +27,7 @@ KoreanLanguageFeatures::~KoreanLanguageFeatures()
 
 bool KoreanLanguageFeatures::alwaysShowSuggestions() const
 {
-    // Korean characters can only be entered via suggestions.
-    return true;
+    return false;
 }
 
 bool KoreanLanguageFeatures::autoCapsAvailable() const
@@ -45,7 +44,6 @@ bool KoreanLanguageFeatures::activateAutoCaps(const QString &preedit) const
 QString KoreanLanguageFeatures::appendixForReplacedPreedit(const QString &preedit) const
 {
     Q_UNUSED(preedit)
-    // auto add a character in any event?
     return QString("");
 }
 
@@ -66,7 +64,15 @@ bool KoreanLanguageFeatures::isSeparator(const QString &text) const
 
 bool KoreanLanguageFeatures::isSymbol(const QString &text) const
 {
-    Q_UNUSED(text)
+    static const QString symbols = QString::fromUtf8("*#+=()@~/\\€£$¥₹%<>[]`^|_§{}¡¿«»\"“”„&0123456789");
+
+    if (text.isEmpty()) {
+        return false;
+    }
+
+    if (symbols.contains(text.right(1))) {
+        return true;
+    }
 
     return false;
 }
@@ -74,19 +80,4 @@ bool KoreanLanguageFeatures::isSymbol(const QString &text) const
 bool KoreanLanguageFeatures::ignoreSimilarity() const
 {
     return true;
-}
-
-bool KoreanLanguageFeatures::wordEngineAvailable() const
-{
-    return true;
-}
-
-bool KoreanLanguageFeatures::enablePreeditAtInsertion() const
-{
-    return true;
-}
-
-bool KoreanLanguageFeatures::restorePreedit() const
-{
-    return false;
 }
